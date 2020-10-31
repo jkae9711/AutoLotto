@@ -12,7 +12,8 @@ public class LottoMain {
 
         for(Integer item : init) {
             if (!lotto_number_init.contains(item)) {
-                lotto_number_init.add(item)
+                lotto_number_init.add(item);
+            }
         }
 
         for(int i=0; i<6; i++) {
